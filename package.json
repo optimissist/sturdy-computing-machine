@@ -1,0 +1,30 @@
+{
+  "name": "reactportfolio",
+  "version": "2.4.1",
+  "description": "This is Marla's Resume and Portfolio. Built using VS Code, Parcel, Express, Node.js, and some coding languages.",
+  "source": "server.js",
+  "scripts": {
+    "dev": "parcel public/index.html --open",
+    "start": "nodemon node server.js",
+    "build": "parcel build public/index.html --public-url ./"
+  },
+  "devDependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "bootstrap": "^5.3.3",
+    "express": "^4.17.2",
+    "formsy-semantic-ui-react": "^2.3.6",
+    "jquery": "^3.7.1",
+    "nodemon": "^3.1.0",
+    "parcel": "^2.12.0",
+    "popper.js": "^1.16.1",
+    "process": "^0.11.10",
+    "react": "^18.3.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.3.0",
+    "react-icons": "^5.1.0",
+    "react-router-dom": "^6.23.0",
+    "react-tooltip": "^5.26.3",
+    "reactjs-popup": "^2.0.6",
+    "sweetalert2": "^11.10.8"
+  }
+}
